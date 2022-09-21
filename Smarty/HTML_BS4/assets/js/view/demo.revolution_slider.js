@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
 		// Init Revolution Slider
 		revapi = jQuery('.fullwidthbanner').revolution({
 			dottedOverlay:"none",
-			delay:9000,
+			delay:7000,
 			startwidth:1170,
 			startheight: jQuery(".fullwidthbanner").attr('data-height') || 500,
 			hideThumbs:hideThumbs,
@@ -65,7 +65,7 @@ jQuery(document).ready(function() {
 			navigationStyle:jQuery('.fullwidthbanner').attr('data-navigationStyle') || "round", // round,square,navbar,round-old,square-old,navbar-old (see docu - choose between 50+ different item)
 
 			touchenabled:"on",
-			onHoverStop:"on",
+			onHoverStop:"off",
 
 			navigationHAlign:"center",
 			navigationVAlign:"bottom",
